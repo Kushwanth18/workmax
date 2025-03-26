@@ -1,0 +1,1 @@
+ALTER TABLE `workout` ADD `date` text NOT NULL;

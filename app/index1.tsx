@@ -4,7 +4,6 @@ import { Link } from 'expo-router'
 import Header from '@/app/Header'
 import { useFonts ,Alexandria_400Regular } from '@expo-google-fonts/dev'
 
-
 export class index extends Component {
   render() {
     return (
