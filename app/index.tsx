@@ -16,12 +16,11 @@ export class index extends Component {
                 <Text className='color-[#E8E9EB] text-xl text-center' style={{fontFamily:Alexandria_400Regular}}>Log Workout</Text>
             </TouchableOpacity>
         </Link>
-            <TouchableOpacity className='p-4 bg-[#379392] rounded-3xl shadow-lg shadow-black mt-5'>
-                <Text className='color-[#E8E9EB] text-xl text-center'>Set Water Reminder</Text>
-            </TouchableOpacity>
+        <Link href='/workmaxai' asChild>
             <TouchableOpacity className='p-4 bg-[#379392] rounded-3xl shadow-lg shadow-black mt-5'>
                 <Text className='color-[#E8E9EB] text-xl text-center'>WorkMax AI</Text>
             </TouchableOpacity>
+            </Link>
             <TouchableOpacity className='p-4 bg-[#a53c3cd1] rounded-3xl shadow-lg shadow-black mt-5'>
                 <Text className='color-[#E8E9EB] text-xl text-center'>View Past Workouts</Text>
             </TouchableOpacity>

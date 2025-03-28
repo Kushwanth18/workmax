@@ -50,6 +50,7 @@ const log = () => {
     setWorkoutName("");
     setSets("");
     setReps("");
+    setWeight("");
   };
 
   const currentDate = new Date().toISOString().split('T')[0];
