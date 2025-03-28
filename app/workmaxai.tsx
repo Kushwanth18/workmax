@@ -15,7 +15,7 @@ const Workmaxai = () => {
     const [isLoading, setIsLoading] = useState(false);
     const scrollViewRef = useRef<ScrollView>(null);
 
-    const apiKey = "AIzaSyDx-hGABQhjtIlUmSVPAzHFmK5EzWWX1Vg"; // Replace with your actual API key
+    const apiKey = "gemini-api-key"; // Replace with your actual API key
     const ai = new GoogleGenAI({ apiKey });
 
     const handleSend = async () => {
